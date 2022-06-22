@@ -1,9 +1,6 @@
 import Head from 'next/head';
-import { Container, Grid, Text } from "@nextui-org/react";
-import Faq from './Faq';
-import MyCard from './MyCard';
-import MyDropdown from './MyDropdown'
-import MyTable from './MyTable';
+import { Container, Text } from "@nextui-org/react";
+
 export default function Home() {
   return (
     <div>
@@ -35,19 +32,9 @@ export default function Home() {
 
         
           <Container className='p-[18px] '>
-            <Text className='text-green-300 hover:text-green-400 cursor-pointer p-[20px] font-bold ' size={60}>Youte</Text>
+            <Text className='text-green-300 hover:text-green-400 cursor-pointer p-[20px] font-bold' size={60}>Youte</Text>
           </Container>
-          <Grid.Container gap={3}>
-
-            <Faq></Faq>
-            <MyCard></MyCard>
-            <MyCard></MyCard>
-          </Grid.Container>
-
-          <MyTable ></MyTable>
-          <MyTable ></MyTable>
-          <MyTable ></MyTable>
-          <MyTable ></MyTable>
+          
 
 
 
