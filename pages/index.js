@@ -32,7 +32,7 @@ export default function Home() {
 
         
           <Container className='p-[18px] '>
-            <Text className='text-green-300 hover:text-green-400 cursor-pointer p-[20px] font-bold' size={60}>Youte</Text>
+            <Text className='text-green-300 hover:text-green-400 cursor-pointer p-[20px] font-bold' size={60}>🔥 Hello 🔥</Text>
           </Container>
           
 
