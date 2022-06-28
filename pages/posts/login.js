@@ -30,44 +30,7 @@ export default function Home() {
 
                 }}
             >
-                <Card css={{ width: '350px', height: '400px', pt: '30px' }} shadow>
-                    <Card.Header css={{ p: '5px 20px' }}>
-
-                        <Text h2 color="white">
-                            Your checklist
-                        </Text>
-
-                    </Card.Header>
-                    <Card.Body css={{ display: 'flex', alignItems: 'center', justifyContent: "end", gap: '40px' }}>
-                        <Input
-                            bordered
-                            labelPlaceholder="Email"
-                            width='100%'
-                        />
-                        <Input
-                            bordered
-                            labelPlaceholder="Password"
-                            width='100%'
-                            type={'password'} />
-                        <Container css={{ display: 'flex', justifyContent: 'space-between', p: 0, }}>
-                            <Button auto flat color="gradient" css={{ width: '40%' }} >
-                                Sign up
-                            </Button>
-                            <Button auto css={{ width: '40%' }}>
-                                Sign in
-                            </Button>
-                        </Container>
-                    </Card.Body>
-                    <Card.Footer>
-                        <Link
-                            color="primary"
-                            target="_blank"
-                            href="https://github.com/nextui-org/nextui"
-                        >
-                            Visit source code on GitHub.
-                        </Link>
-                    </Card.Footer>
-                </Card>
+                
 
 
             </Container>
