@@ -2,11 +2,11 @@ This is a [Next.js](https://nextjs.org/) + NextUI and TailwindCSS project
 
 ## Getting Started
 
-First, run the development server:
+First:
 
 ```bash
-npm run dev
+npm install
 # or
-yarn dev
+yarn install
 ```
 
